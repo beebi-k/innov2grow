@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,8 +9,6 @@
   --border: 214 32% 91%;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-
 @layer base {
   * {
     border-color: hsl(var(--border));
@@ -17,8 +17,8 @@
   body {
     background-color: #f8fafc; /* secondary-50 */
     color: #1e293b; /* secondary-800 */
-    font-family: 'Inter', system-ui, -apple-system, sans-serif; /* ✅ FIX */
-    -webkit-font-smoothing: antialiased; /* ✅ replaces antialiased */
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
 
